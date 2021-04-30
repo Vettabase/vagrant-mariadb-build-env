@@ -2,6 +2,11 @@
 
 A Vagrantfile to create suitable VMs to compile MariaDB.
 
+You should have the MariaDB source repository on your host system, which should be pulled
+with git, and you should work on it with your favourite tools. The repository directory
+should be a shared folder (see the `REPO` variable below). The VM will be able
+to access it too, to compile MariaDB.
+
 
 ## Configuration
 
