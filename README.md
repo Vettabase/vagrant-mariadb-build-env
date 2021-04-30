@@ -1,3 +1,10 @@
+# vagrant-mariadb-build-env
+
+A Vagrantfile to create suitable VMs to compile MariaDB.
+
+
+## Configuration
+
 You can pass these variables:
 
 * `BOX`: The name of the base box (the VM operating system). Default: 10.6.
