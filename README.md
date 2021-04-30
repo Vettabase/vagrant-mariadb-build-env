@@ -17,3 +17,14 @@ sources/normalised_os/mariadb_version/
 
 `normalised_os` is the name of the box, where the `/` character is replaced with `-`.
 
+The easiest way to set these variables is to create a `.env` file. En example:
+
+```
+BOX=ubuntu/bionic64
+MARIADB_VERSION=10.6
+REPO=~/repos/server
+```
+
+Note: this wouldn't work with any Vagrantfile, but we automatically install
+the `vagrant-env` plugin.
+
