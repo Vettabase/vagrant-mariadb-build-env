@@ -22,5 +22,3 @@ apt-get install -y \
     libjemalloc-dev \
     valgrind
 
-echo $REPO > /x
-
