@@ -35,3 +35,13 @@ REPO=~/repos/server
 Note: this wouldn't work with any Vagrantfile, but we automatically install
 the `vagrant-env` plugin.
 
+
+## Copyright and Contacts
+
+This repository is distributed under the terms of the GNU AGPL, version 3. Copyright: Vettabase Ltd.
+
+To contact us:
+
+info@vettabase.com
+https://vettabase.com
+
