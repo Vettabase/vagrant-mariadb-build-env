@@ -1,0 +1,6 @@
+# exclude Vagrant logs and Vagrant internal data
+.vagrant
+/*.log
+# exclude .env file, which is sued to configure Vagrantfile
+.env
+
