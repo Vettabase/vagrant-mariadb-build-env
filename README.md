@@ -42,6 +42,6 @@ This repository is distributed under the terms of the GNU AGPL, version 3. Copyr
 
 To contact us:
 
-info@vettabase.com
-https://vettabase.com
+- info@vettabase.com
+- https://vettabase.com
 
