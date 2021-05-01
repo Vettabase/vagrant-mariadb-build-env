@@ -1,4 +1,4 @@
-# MariaDB 10.6 repository list - created 2021-04-29 19:28 UTC
+# MariaDB 10.6 repository list - created 2021-05-01 23:05 UTC
 # http://downloads.mariadb.org/mariadb/repositories/
-deb [arch=amd64] https://mirrors.ukfast.co.uk/sites/mariadb/repo/10.6/ubuntu focal main
-deb-src https://mirrors.ukfast.co.uk/sites/mariadb/repo/10.6/ubuntu focal main
+deb [arch=amd64,arm64,ppc64el] https://mirrors.ukfast.co.uk/sites/mariadb/repo/10.6/ubuntu bionic main
+deb-src https://mirrors.ukfast.co.uk/sites/mariadb/repo/10.6/ubuntu bionic main
