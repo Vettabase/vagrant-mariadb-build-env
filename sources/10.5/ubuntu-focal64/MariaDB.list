@@ -1,0 +1,4 @@
+# MariaDB 10.5 repository list - created 2021-05-01 22:14 UTC
+# http://downloads.mariadb.org/mariadb/repositories/
+deb [arch=amd64] https://mirrors.ukfast.co.uk/sites/mariadb/repo/10.5/ubuntu focal main
+deb-src https://mirrors.ukfast.co.uk/sites/mariadb/repo/10.5/ubuntu focal main
