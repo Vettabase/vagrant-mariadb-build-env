@@ -12,6 +12,10 @@ to access it too, to compile MariaDB.
 
 You can pass these variables:
 
+* `VM_HOTPLUG`: Wether hotplug should be ON or OFF for the VM. Default: 'on'.
+* `VM_CPU`: Number of vCPU's in the VM. Default: 2.
+* `VM_RAM`: Amount of RAM in M. Default: 4G.
+* `VM_VRAM`: Amount of video-RAM in M. Default: 4.
 * `BOX`: The name of the base box (the VM operating system). Default: 10.6.
 * `MARIADB_VERSION`: The MariaDB version you will compile. Default:
   'ubuntu/bionic64'.

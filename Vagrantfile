@@ -16,16 +16,21 @@ Vagrant.configure('2') do |config|
     MARIADB_VERSION = ENV['MARIADB_VERSION'] || '10.6'
     REPO = ENV['REPO'] || ''
 
+    VM_HOTPLUG = ENV['VM_HOTPLUG'] || 'on'
+    VM_CPU = ENV['VM_CPU'] || '2'
+    VM_RAM = ENV['VM_RAM'] || 1024 * 4
+    VM_VRAM = ENV['VM_VRAM'] || '2'
+
     config.vm.box = BOX
     config.vm.box_check_update = false
     config.vm.synced_folder '.', '/Vagrant'
 
     config.vm.provider "virtualbox" do |vb|
         vb.gui = false
-        vb.customize ['modifyvm', :id, '--memory', 1024 * 4]
-        vb.customize ['modifyvm', :id, '--cpuhotplug', 'on']
-        vb.customize ['modifyvm', :id, '--cpus', '2']
-        vb.customize ['modifyvm', :id, '--vram', '2']
+        vb.customize ['modifyvm', :id, '--memory', VM_RAM]
+        vb.customize ['modifyvm', :id, '--cpuhotplug', VM_HOTPLUG]
+        vb.customize ['modifyvm', :id, '--cpus', VM_CPU]
+        vb.customize ['modifyvm', :id, '--vram', VM_VRAM]
     end
 
     # default synced folder
