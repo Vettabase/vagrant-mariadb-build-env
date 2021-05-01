@@ -41,6 +41,12 @@ Note: this wouldn't work with any Vagrantfile, but we automatically install
 the `vagrant-env` plugin.
 
 
+## Build script
+
+Once the VM is built, in the `/Vagrant` directory you will find the `build-mariadb.sh` file,
+that builds MariaDB with the default options. Modify it according to your needs.
+
+
 ## Copyright and Contacts
 
 This repository is distributed under the terms of the GNU AGPL, version 3. Copyright: Vettabase Ltd.

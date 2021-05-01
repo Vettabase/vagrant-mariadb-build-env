@@ -22,3 +22,5 @@ apt-get install -y \
     libjemalloc-dev \
     valgrind
 
+chmod u+x /Vagrant/build-mariadb.sh
+
