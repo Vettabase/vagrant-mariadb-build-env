@@ -12,7 +12,7 @@ Vagrant.configure('2') do |config|
     config.env.enable
 
     # defaults
-    BOX = ENV['BOX'] || 'ubuntu/bionic64'
+    BOX = ENV['BOX'] || 'ubuntu/focal64'
     MARIADB_VERSION = ENV['MARIADB_VERSION'] || '10.6'
     REPO = ENV['REPO'] || ''
 

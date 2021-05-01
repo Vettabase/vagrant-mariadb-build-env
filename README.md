@@ -36,13 +36,23 @@ sources/normalised_os/mariadb_version/
 The easiest way to set these variables is to create a `.env` file. En example:
 
 ```
-BOX=ubuntu/bionic64
+BOX=ubuntu/focal64
 MARIADB_VERSION=10.6
 REPO=~/repos/server
 ```
 
 Note: this wouldn't work with any Vagrantfile, but we automatically install
 the `vagrant-env` plugin.
+
+### Supported versions lists
+
+Here is a list of supported MariaDB versions and, for each of them, the sublist of
+supported systems.
+
+#### 10.6
+
+* ubuntu/focal64 (Ubuntu 20.04)
+* ubuntu/bionic64 (Ubuntu 18.04)
 
 
 ## Build script
