@@ -10,7 +10,12 @@ set -o pipefail
 
 
 apt-get update -y
-apt-get install -y software-properties-common
+if [[ $OS_DIR == 'ubuntu-xenial64' ]];
+then
+    apt-get install -y software-properties-common gnupg-curl
+else
+    apt-get install -y software-properties-common
+fi
 apt-key adv --fetch-keys 'https://mariadb.org/mariadb_release_signing_key.asc'
 
 cp /Vagrant/sources/$MARIADB_VERSION/$OS_DIR/MariaDB.list /etc/apt/sources.list.d/
