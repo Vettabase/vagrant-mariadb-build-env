@@ -36,7 +36,7 @@ Vagrant.configure('2') do |config|
     # default synced folder
     config.vm.synced_folder '.', '/Vagrant'
     # optional synced folder that should point to a MariaDB source repository
-    unless REPO == '' or REPO.nil == ''
+    unless REPO == '' or REPO.nil?
         config.vm.synced_folder REPO, '/repo'
     end
 
