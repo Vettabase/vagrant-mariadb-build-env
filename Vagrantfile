@@ -19,7 +19,7 @@ Vagrant.configure('2') do |config|
     VM_HOTPLUG = ENV['VM_HOTPLUG'] || 'on'
     VM_CPU = ENV['VM_CPU'] || '2'
     VM_RAM = ENV['VM_RAM'] || 1024 * 4
-    VM_VRAM = ENV['VM_VRAM'] || '2'
+    VM_VRAM = ENV['VM_VRAM'] || '32'
 
     config.vm.box = BOX
     config.vm.box_check_update = false
