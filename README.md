@@ -54,6 +54,12 @@ supported systems.
 * ubuntu/focal64 (Ubuntu 20.04)
 * ubuntu/bionic64 (Ubuntu 18.04)
 
+#### 10.5
+
+* ubuntu/focal64 (Ubuntu 20.04)
+* ubuntu/bionic64 (Ubuntu 18.04)
+* ubuntu/xenial64 (Ubuntu 16.04)
+
 
 ## Build script
 
