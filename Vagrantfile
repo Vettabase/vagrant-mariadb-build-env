@@ -31,6 +31,7 @@ Vagrant.configure('2') do |config|
         vb.customize ['modifyvm', :id, '--cpuhotplug', VM_HOTPLUG]
         vb.customize ['modifyvm', :id, '--cpus', VM_CPU]
         vb.customize ['modifyvm', :id, '--vram', VM_VRAM]
+        vb.customize ['modifyvm', :id, '--clipboard', 'bidirectional']
     end
 
     # default synced folder
